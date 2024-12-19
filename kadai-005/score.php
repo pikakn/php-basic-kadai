@@ -19,7 +19,8 @@
             $score9 = 30;
             $score10 = 60;
             $sumScore = $score1+$score2+$score3+$score4+$score5+$score6+$score7+$score8+$score9+$score10;
-            echo ($sumScore)/10;
+            $avrScore = $sumScore / 10;
+            echo $avrScore;
         ?>
     </body>
 </html>
